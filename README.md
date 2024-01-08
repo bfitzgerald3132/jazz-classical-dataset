@@ -1,11 +1,10 @@
 Jazz/Classical Dataset Download
+
 Author: Ben Fitzgerald
 
 ------------------------------
 
-Synopsis: Downloads a dataset of WAV samples of either jazz or classical music for training an audio classifier
-
-- Generates the same number of jazz and classical samples, as well as the same number of samples from each link. 
+Synopsis: Generates dataset of random jazz/classical audio samples (.wav) from provided YouTube links
 
 ------------------------------
 
@@ -27,6 +26,7 @@ Parameters:
 ------------------------------
 
 Methods:
+
 download_and_split(path, n_clips_per_link, list_of_clips): Downloads each audio sample as n WAV files
 - path: Desired path for .WAV files to be downloaded and produced
 - n_clips_per_link: Number of .wav clips to be produced from each downloaded .mp4 file
