@@ -4,7 +4,7 @@ Given a list of YouTube links to jazz and classical audio, downloads a dataset o
 
 Packages required: pytube, moviepy, pydub (install with pip)
 
-See sample dataset on Kaggle
+<a href="#">See sample dataset on Kaggle</a>
 
 ------------------------------
 
@@ -40,12 +40,13 @@ download(clip, path): Downloads a YouTube link as an MP4 file
 	- clip[1]: Desired filename (string)
 - path: Desired path for YouTube video
 
--------------------------------
-<b>Installation is easy!</b> Download and run script in .py or .ipynb format
-
 split_mp4_into_wavs(path, n_clips, length=LENGTH_OF_CLIP): Splits an MP4 file into <i>n</i> WAV files, taken from even increments throughout the song
 - path: Path to .mp4 file
 - n_clips: Number of .wav clips to be produced from .mp4 file
 - length: Length of each respective clip (defaults to LENGTH_OF_CLIP parameter)
 init_directories(path=BASE_PATH): Writes a 'dataset' directory with subdirectories 'Classical' and 'Jazz'
 - path: Path for 'dataset' (defaults to BASE_PATH)
+
+-------------------------------
+
+<b>Installation is easy!</b> Download and run script in .py or .ipynb format
