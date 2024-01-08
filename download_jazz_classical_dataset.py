@@ -10,7 +10,7 @@ import random
 # Define parameters
 LENGTH_OF_CLIP = 5000
 NUMBER_OF_CLIPS = 1500
-BASE_PATH = "G:/My Drive/Colab Notebooks/Jazz vs Classical Classifier" # Omit terminating slash
+BASE_PATH = "TODO ADD PATH" # Omit terminating slash
 
 # Define clips
 classical_clips = [
@@ -173,6 +173,7 @@ path = BASE_PATH + "/dataset/Classical/"
 n_clips_per_link = int(NUMBER_OF_CLIPS / 2 / len(classical_clips))
 download_and_split(path, n_clips_per_link, classical_clips)
 
+# Load jazz clips
 path = BASE_PATH + "/dataset/Jazz/"
 n_clips_per_link = int(NUMBER_OF_CLIPS / 2 / len(jazz_clips))
 download_and_split(path, n_clips_per_link, jazz_clips)
