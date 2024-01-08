@@ -4,6 +4,8 @@ Given a list of YouTube links to jazz and classical audio, downloads a dataset o
 
 Packages required: pytube, moviepy, pydub (install with pip)
 
+<b>Installation is easy!</b> Download and run script in .py or .ipynb format
+
 ------------------------------
 
 Parameters:
