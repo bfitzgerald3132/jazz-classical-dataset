@@ -6,6 +6,8 @@ Author: Ben Fitzgerald
 
 Synopsis: Generates dataset of random jazz/classical audio samples (.wav) from provided YouTube links
 
+Packages required: pytube, moviepy, pydub (install with pip)
+
 ------------------------------
 
 Parameters:
