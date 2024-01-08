@@ -9,6 +9,7 @@ Packages required: pytube, moviepy, pydub (install with pip)
 ------------------------------
 
 <h2>Parameters:</h2>
+
 - LENGTH_OF_CLIP: Length (in milliseconds) of each audio sample
 
 - NUMBER_OF_CLIPS: Total number of clips in dataset. Evenly split between jazz and classical samples
