@@ -8,7 +8,7 @@ Packages required: pytube, moviepy, pydub (install with pip)
 
 ------------------------------
 
-Parameters:
+<h2>Parameters:</h2>
 - LENGTH_OF_CLIP: Length (in milliseconds) of each audio sample
 
 - NUMBER_OF_CLIPS: Total number of clips in dataset. Evenly split between jazz and classical samples
@@ -25,7 +25,7 @@ Parameters:
 
 ------------------------------
 
-Methods:
+<h2>Methods:</h2>
 
 download_and_split(path, n_clips_per_link, list_of_clips): Downloads each audio sample as n WAV files
 - path: Desired path for .WAV files to be downloaded and produced
