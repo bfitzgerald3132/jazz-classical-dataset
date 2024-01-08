@@ -1,10 +1,6 @@
 Jazz/Classical Dataset Download
 
-Author: Ben Fitzgerald
-
-------------------------------
-
-Synopsis: Generates dataset of random jazz/classical audio samples (.wav) from provided YouTube links
+Given a list of YouTube links to jazz and classical audio, downloads a dataset of five-second WAV files for training an audio classifier
 
 Packages required: pytube, moviepy, pydub (install with pip)
 
