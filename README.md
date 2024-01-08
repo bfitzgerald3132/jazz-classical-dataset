@@ -27,7 +27,7 @@ Packages required: pytube, moviepy, pydub (install with pip)
 
 <h2>Methods:</h2>
 
-download_and_split(path, n_clips_per_link, list_of_clips): Downloads each audio sample as n WAV files
+download_and_split(path, n_clips_per_link, list_of_clips): Downloads each audio sample as <i>n</i> WAV files
 - path: Desired path for .WAV files to be downloaded and produced
 - n_clips_per_link: Number of .wav clips to be produced from each downloaded .mp4 file
 - list_of_clips: A list of nested two element lists (representing a YouTube audio sample), where...
@@ -40,7 +40,7 @@ download(clip, path): Downloads a YouTube link as an MP4 file
 	- clip[1]: Desired filename (string)
 - path: Desired path for YouTube video
 
-split_mp4_into_wavs(path, n_clips, length=LENGTH_OF_CLIP): Splits an MP4 file into n WAV files, taken from even increments throughout the song
+split_mp4_into_wavs(path, n_clips, length=LENGTH_OF_CLIP): Splits an MP4 file into <i>n</i> WAV files, taken from even increments throughout the song
 - path: Path to .mp4 file
 - n_clips: Number of .wav clips to be produced from .mp4 file
 - length: Length of each respective clip (defaults to LENGTH_OF_CLIP parameter)
