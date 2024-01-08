@@ -45,6 +45,7 @@ split_mp4_into_wavs(path, n_clips, length=LENGTH_OF_CLIP): Splits an MP4 file in
 - path: Path to .mp4 file
 - n_clips: Number of .wav clips to be produced from .mp4 file
 - length: Length of each respective clip (defaults to LENGTH_OF_CLIP parameter)
+  
 init_directories(path=BASE_PATH): Writes a 'dataset' directory with subdirectories 'Classical' and 'Jazz'
 - path: Path for 'dataset' (defaults to BASE_PATH)
 
