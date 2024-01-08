@@ -1,4 +1,4 @@
-Jazz/Classical Dataset Download
+<h1 style="margin: auto; width: 100%; text-align: center; font-size: 25px;">Jazz/Classical Dataset Download</h1>
 
 Given a list of YouTube links to jazz and classical audio, downloads a dataset of five-second WAV files for training an audio classifier
 
