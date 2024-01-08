@@ -49,4 +49,4 @@ init_directories(path=BASE_PATH): Writes a 'dataset' directory with subdirectori
 
 -------------------------------
 
-<b>Installation is easy!</b> Download and run script in .py or .ipynb format
+<h2><b>Installation is easy!</b> Download and run script in .py or .ipynb format</h2>
