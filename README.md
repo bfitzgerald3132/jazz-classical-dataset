@@ -1,10 +1,10 @@
 <h1 style="margin: auto; width: 100%; text-align: center; font-size: 25px;">Jazz/Classical Dataset Download</h1>
 
-Given a list of YouTube links to jazz and classical audio, downloads a dataset of five-second WAV files for training an audio classifier
+Given a list of YouTube links to jazz and classical audio, this script downloads a dataset of five-second WAV files for training an audio classifier
 
 Packages required: pytube, moviepy, pydub (install with pip)
 
-<a href="#">See sample dataset on Kaggle</a>
+<a href="https://www.kaggle.com/datasets/benfitzgerald3132/jazz-vs-classical-music-classification/">See sample dataset on Kaggle</a>
 
 ------------------------------
 
